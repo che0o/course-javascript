@@ -1,0 +1,22 @@
+{
+  "proxy": {
+    "/graduation-project1/list": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/graduation-project1": ""
+      }
+    },
+    "/graduation-project1/add": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/graduation-project1": ""
+      }
+    },
+    "/graduation-project1/coords": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/graduation-project1": ""
+      }
+    }
+  }
+}
